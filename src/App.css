@@ -1,0 +1,745 @@
+@import url("https://use.typekit.net/ybr2nkg.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+body {
+  font-family: "roc-grotesk", sans-serif;
+}
+
+body.no-scroll {
+  overflow-y: hidden;
+}
+
+#top-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+#nav-title-logo a {
+  text-decoration: none;
+  color: black;
+}
+
+#title-name {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+#home-title {
+  margin-top: 0.5rem;
+}
+#title-occupation {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.65rem;
+  margin-top: 0.3rem;
+  letter-spacing: 0.5rem;
+}
+
+#menu-button {
+  background: none;
+  border: none;
+}
+
+.active {
+  background: none;
+  border: none;
+  color: white;
+}
+
+#top-nav-glass-layer {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 85px;
+  z-index: 97;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.863);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+/* MOBILE MENU ------------------------------------------** */
+#mobile-menu-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(14, 0, 26);
+  top: 0;
+  right: 0;
+  padding-top: 10rem;
+  z-index: 98;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: center;
+}
+
+#mobile-menu li {
+  list-style: none;
+}
+
+#mobile-menu a {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* HOMEPAGE ---------------------------------------** */
+#home-content-container,
+.container {
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.vector {
+  position: relative;
+
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+  bottom: -40px;
+  z-index: -1;
+}
+#profile-pic {
+  width: 50%;
+}
+
+#home-title {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.home-subtitle {
+  color: rgb(117, 117, 117);
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+.paragraph-body-text {
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+  color: rgb(117, 117, 117);
+  word-spacing: 0.2rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#home-read-about-me {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#case-studies-section {
+  margin-top: 4rem;
+}
+
+#home-case-studies-title {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#projects-grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.project-grid-item {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.project-grid-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.title-absolute {
+  position: absolute;
+  top: 2rem;
+  left: 0.5rem;
+  color: white;
+  font-weight: 400;
+  word-spacing: 0.2rem;
+}
+.date-absolute {
+  color: white;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
+
+#call-to-action {
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: rgb(117, 117, 117);
+}
+#call-to-action-text {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+  font-family: "roc-grotesk-wide", sans-serif;
+  cursor: pointer;
+}
+
+/* SINGLE PROJECT COMPONENT ----------------------------------** */
+
+.project-big-text {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.cursor-project-big-text {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.title-text {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 2rem;
+}
+.subtitle-text {
+  color: rgb(117, 117, 117);
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-paragraph {
+  font-family: "Roboto", sans-serif;
+  color: rgb(117, 117, 117);
+  word-spacing: 0.2rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-project-paragraph {
+  font-family: "Roboto", sans-serif;
+  color: rgb(117, 117, 117);
+  word-spacing: 0.2rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.live-project {
+  text-decoration: none;
+  color: #130c1b;
+  cursor: pointer;
+}
+
+/* CONTACT PAGE --------------------------------** */
+#contact-container {
+  margin-top: 10rem;
+  padding: 0rem 1rem;
+}
+
+.about-title-text {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title-text-contact {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+  margin-bottom: 2rem;
+}
+
+label {
+  color: rgb(117, 117, 117);
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+input {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  height: 20px;
+  width: 300px;
+  border: 2px solid rgb(235, 235, 235);
+}
+
+textarea {
+  height: 200px;
+  width: 300px;
+}
+
+.form-submit-button {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+/* KARASU DIGITAL / BRAND----------------------------------** */
+.karasu-main-container {
+  height: 100%;
+  width: 100%;
+  background: #130c1b;
+}
+
+.karasu-close-x {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #faaf40;
+  z-index: 103;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.karasu-close-x:hover {
+  transform: scale(1.3);
+}
+
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: #130c1b; */
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 101;
+}
+
+.effect {
+  width: 100%;
+  height: 100%;
+}
+.effect-content {
+  min-height: 100vh;
+  background-color: #130c1b;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.karasu-hero-image {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.karasu-hero-image img {
+  width: 100%;
+}
+
+.commission-flexbox {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.commission-flexbox h4 {
+  font-size: 0.7rem;
+  color: #7e10be;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+.commission-flexbox p {
+  font-size: 0.7rem;
+  color: #7e10be;
+  margin-top: 2rem;
+}
+
+.karasu-second-image {
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.karasu-second-image img {
+  width: 100%;
+}
+
+.line-break {
+  width: 100%;
+}
+
+.line-break img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.karasu-hero-advert {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.karasu-hero-advert img {
+  width: 100%;
+}
+
+#karasu-logo-container {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  z-index: 108;
+}
+
+#karasu-logo-container img {
+  width: 150px;
+}
+
+.karasu-img {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  margin-bottom: 2rem;
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.karasu-dodge {
+  width: 48%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.website-soon-text a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.website-soon-text h3 {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 500;
+  margin-top: 2rem;
+  color: #faaf40;
+  text-align: center;
+}
+.website-soon-text h4 {
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 300;
+  margin-top: 1rem;
+  color: #faaf40;
+  text-align: center;
+}
+
+/* FOOTER --------------------------------------------** */
+
+.screen-container {
+  min-height: 100vh;
+}
+
+#footer-container {
+  position: sticky;
+  top: 100%;
+  /* margin-top: 2rem; */
+  padding: 0rem 1rem;
+  background: white;
+  border-top: black solid 1px;
+}
+.footer-sections {
+  margin-top: 2rem;
+}
+.footer-titles {
+  font-family: "roc-grotesk-wide", sans-serif;
+}
+
+#availability-text {
+  color: rgb(117, 117, 117);
+  word-spacing: 0.2rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2rem;
+}
+
+ul {
+  margin-top: 1rem;
+}
+.footer-sections li {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+.footer-sections a {
+  text-decoration: none;
+  color: black;
+  margin-right: 1rem;
+}
+
+#social-media-section li {
+  display: inline-block;
+}
+#footer-trademark {
+  font-size: 0.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    padding: 2rem;
+  }
+
+  #title-name {
+    font-size: 1.5rem;
+  }
+
+  #title-occupation {
+    font-size: 0.9rem;
+  }
+
+  #projects-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .project-grid-item {
+    height: 400px;
+  }
+  .project-grid-item img {
+    height: 400px;
+  }
+
+  #case-studies-section {
+    margin-bottom: 4rem;
+  }
+
+  #home-content-container,
+  .container {
+    margin-top: 3rem;
+    padding: 2rem;
+  }
+  #home-title {
+    font-size: 2.2rem;
+  }
+  .home-subtitle {
+    font-size: 1rem;
+  }
+
+  .vector {
+    bottom: -3.5rem;
+  }
+  #profile-pic {
+    width: 40%;
+  }
+
+  .paragraph-body-text {
+    font-size: 1.2rem;
+
+    line-height: 1.4rem;
+  }
+
+  .project-paragraph {
+    line-height: 1.4rem;
+
+    font-size: 1.2rem;
+  }
+
+  .about-project-paragraph {
+    line-height: 1.4rem;
+
+    font-size: 1.2rem;
+  }
+
+  #home-read-about-me {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .effect-content {
+    padding: 2rem;
+  }
+
+  .karasu-close-x {
+    font-size: 1.8rem;
+    top: 3rem;
+  }
+
+  #karasu-logo-container img {
+    width: 180px;
+  }
+
+  .commission-flexbox {
+    max-width: 500px;
+  }
+  .commission-flexbox h4 {
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .commission-flexbox p {
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #footer-container {
+    padding: 0rem 2rem;
+  }
+
+  /* end of media 600 -------------------------** */
+}
+
+@media screen and (min-width: 900px) {
+  #home-content-container,
+  .container {
+    padding: 0.2rem 4rem 4rem 4rem;
+  }
+
+  #title-name {
+    font-size: 1.8rem;
+  }
+
+  #title-occupation {
+    font-size: 1.2rem;
+  }
+
+  #home-intro-section {
+    margin-top: -8rem;
+    width: 62%;
+  }
+
+  .vector {
+    bottom: -4.5rem;
+  }
+  #profile-pic {
+    width: 35%;
+  }
+
+  .container {
+    padding: 4rem;
+  }
+  #contact-container {
+    padding: 4rem;
+  }
+
+  .date-absolute {
+    top: 2rem;
+    left: 2rem;
+    font-size: 1.5rem;
+  }
+  .title-absolute {
+    top: 4rem;
+    left: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .project-grid-item {
+    height: 800px;
+    position: relative;
+  }
+
+  .project-grid-item img {
+    height: 800px;
+    width: 100%;
+  }
+
+  .effect-content {
+    padding: 2rem 4rem;
+  }
+
+  .karasu-hero-image {
+    width: 100%;
+    margin-top: 8rem;
+  }
+
+  .karasu-close-x {
+    font-size: 2.2rem;
+    top: 3rem;
+    right: 4rem;
+  }
+
+  #karasu-logo-container img {
+    width: 240px;
+  }
+
+  .commission-flexbox {
+    max-width: 800px;
+  }
+  .commission-flexbox h4 {
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .commission-flexbox p {
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  #footer-container {
+    padding: 0rem 4rem;
+  }
+}

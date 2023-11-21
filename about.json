@@ -1,0 +1,23 @@
+{
+  "about": [
+    {
+      "id": 1,
+      "header": "About me",
+      "descriptionOne": "I'm Shannon Coles, a specialist in Graphic Design, Web Design, Web Development, and Digital Art. I thrive on transforming ideas into reality and collaborating with fellow creatives. My true passion lies in crafting engaging layouts and eye-catching graphics.",
+      "descriptionTwo": "Over the years, I've dedicated myself to honing my skills in graphic design. In the past two years, I've expanded my expertise into Web Design / Development, UI & UX, thanks to my education at Yoobee College. My journey into the world of Graphic and Web Design was driven by my deep passion for Digital Art, which has been my greatest source of inspiration. ",
+      "descriptionThree": "Currently, I'm actively taking on art commissions and working on graphic layout designs. Simultaneously, I'm building my brand presence online by harnessing my newly acquired web development skills.",
+      "imageOne": "image",
+      "imageTwo": "image",
+      "services": "Web & mobile / UX & UI / Brand Identity / Print Media Sales / Character Illustration ",
+      "events": "events",
+      "clients": "clients",
+      "experience": "experience",
+      "programs": [
+        {
+          "id": 1,
+          "application": "Photoshop / InDesign / Illustrator / Figma / Vs Code / React / Github"
+        }
+      ]
+    }
+  ]
+}

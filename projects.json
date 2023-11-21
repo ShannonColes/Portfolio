@@ -1,0 +1,103 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "date": 2023,
+      "header": "Web Project",
+      "title": "Hyde @Tobakko Service Website",
+      "subtitle": "Yoobee College Summative",
+      "role": "Web Developer & Designer",
+      "image": "/img/hyde-mobile-mockupdark.webp",
+      "imageOne": "/img/hyde-mobile-mockup.webp",
+      "imageTwo": "/img/hyde-multi-image-mockup.webp",
+      "imageThree": "/img/tablet-hyde-mockup.webp",
+      "description": "For this project, I undertook the development and design of a service-oriented website tailored for a digital artist. Leveraging the versatility of WordPress as the project's backend, I aimed to create a website that not only met the immediate needs but also ensured easy customization by the client post-project handover.",
+      "descriptionTwo": "This project serves as a Summative assignment for Yoobee College, undertaken for the purpose of learning and honing web development and design skills. It is important to note that this endeavor is part of an academic assessment and was not commissioned by the actual client, Hyde. The primary objective is skill development and showcasing proficiency in the field.",
+      "link": "Check out the live project!"
+    },
+    {
+      "id": 2,
+      "date": 2023,
+      "header": "Web Project",
+      "title": "ShadowVerse Application Design",
+      "subtitle": "Yoobee College Formative",
+      "role": "Website Developement & Design",
+      "image": "/img/tablet-mockup-dark.webp",
+      "imageOne": "/img/Shadowverse-desktopmockup.webp",
+      "imageTwo": "/img/shadowverse-mobile.webp",
+      "imageThree": "/img/tablet-mockup.webp",
+      "description": "In this project, our objective was to create a single-page application with category-based filtering, providing a practical exercise to enhance our coding skills in preparation for the upcoming summative assessment. I chose to develop a card game application that allows users to filter through different card types. This project proved to be both enjoyable and enlightening, offering a significant learning experience in JavaScript-related coding. It stands as a milestone in my coding journey, showcasing the progress and depth of my knowledge in the field.",
+      "descriptionTwo": "This project serves as a Formative assignment for Yoobee College, undertaken for the purpose of learning and honing web development and design skills. It is important to note that this endeavor is part of an academic assessment and was not commissioned by the actual client, Cygames / Shadowverse. The primary objective is skill development and showcasing proficiency in the field."
+    },
+    {
+      "id": 3,
+      "date": 2023,
+      "header": "Web Project",
+      "title": "Hachi Hachi Ordering Application",
+      "subtitle": "Yoobee College Summative",
+      "role": "Website Developement & Design",
+      "image": "/img/mobile.webp",
+      "imageOne": "/img/design.webp",
+      "imageTwo": "/img/mobile2.webp",
+      "imageThree": "/img/mobilehachihachi.webp",
+      "description": "This project centered around UX design, with a primary focus on creating a new mobile and tablet Ordering Application. Geared towards streamlining the ordering process for restaurant customers, the project aimed to enhance efficiency and user experience. Serving as the first major summative assessment of the year, it provided a valuable learning experience, allowing for the practical application of UX design principles in the development of an intuitive and user-friendly ordering platform.",
+      "descriptionTwo": "This project serves as a Summative assignment for Yoobee College, undertaken for the purpose of learning and honing web development and design skills. It is important to note that this endeavor is part of an academic assessment and was not commissioned by the actual client, Hachi Hachi. The primary objective is skill development and showcasing proficiency in the field."
+    },
+    {
+      "id": 4,
+      "date": 2023,
+      "header": "Web Project",
+      "title": "100% Pure NZ Accommodation Application",
+      "subtitle": "Yoobee College Summative",
+      "role": "Website Developement & Design",
+      "image": "/img/nz-pure-dark.webp",
+      "imageOne": "/img/nz-pure.webp",
+      "imageTwo": "/img/nz-pure-tablet.webp",
+      "imageThree": "/img/nz-design.webp",
+      "description": "The primary objective of this project was to develop a single-page application utilizing HTML, CSS, and JavaScript, with a specific emphasis on input functionalities for hotel room booking. Marking my inaugural experience incorporating JavaScript into a substantial project, I encountered various challenges, particularly within the realm of validation logic. This endeavor proved to be a valuable learning experience, significantly enhancing my knowledge and proficiency in the use of JavaScript in practical, project-oriented scenarios.",
+      "descriptionTwo": "This project serves as a Summative assignment for Yoobee College, undertaken for the purpose of learning and honing web development and design skills. It is important to note that this endeavor is part of an academic assessment and was not commissioned by the actual client, 100% Pure NZ. The primary objective is skill development and showcasing proficiency in the field."
+    },
+    {
+      "id": 5,
+      "date": 2022,
+      "header": "Graphic Project",
+      "title": "Crunchyroll Double Gate Brochure",
+      "subtitle": "Yoobee College Summative",
+      "role": "Graphic Designer & Print Management",
+      "image": "/img/Brochure-dark.webp",
+      "imageOne": "/img/Brochure2.webp",
+      "imageTwo": "/img/Brochure1.webp",
+      "imageThree": "/img/crunchrollhime.webp",
+      "description": "For my Summative assignment, I embarked on the task of crafting a brochure entirely from scratch. Opting for a Double Gate design, I selected Crunchyroll as my fictional client. This assignment, centered around my passion for Japanese anime and manga, proved to be highly enjoyable. I personally illustrated the Crunchyroll mascot character using a Wacom tablet and Adobe Photoshop, adding a personalized touch to the project. The entire process, from design to execution, contributed to a fulfilling and creatively engaging experience.",
+      "descriptionTwo": "This project serves as a Summative assignment for Yoobee College, undertaken for the purpose of learning and honing Graphic design skills. It is important to note that this endeavor is part of an academic assessment and was not commissioned by the actual client, Crunchyroll. The primary objective is skill development and showcasing proficiency in the field."
+    },
+    {
+      "id": 6,
+      "date": 2022,
+      "header": "Graphic Project",
+      "title": "Eight Page Gaming Magazine",
+      "subtitle": "Yoobee College Summative",
+      "role": "Graphic Designer & Print Management",
+      "image": "/img/magazine-dark.webp",
+      "imageOne": "/img/Magazine.webp",
+      "imageTwo": "/img/magazine2.webp",
+      "imageThree": "/img/magazine3.webp",
+      "description": "Employing Adobe InDesign, I undertook the challenge of assembling an eight-page magazine, delving into a range of layout techniques and mastering various InDesign tools. This Magazine Summative proved to be an enriching experience, providing valuable insights into design principles. Despite the occasional challenges posed by printers, I derived immense satisfaction from the final outcome. The project not only expanded my skill set but also affirmed my appreciation for the intricacies of magazine design.",
+      "descriptionTwo": "This project serves as a Summative assignment for Yoobee College, undertaken for the purpose of learning and honing Graphic design skills. It is important to note that this endeavor is part of an academic assessment and was not commissioned by the actual client, Game Magazine. The primary objective is skill development and showcasing proficiency in the field."
+    },
+    {
+      "id": 7,
+      "date": 2022,
+      "header": "Graphic Project",
+      "title": "The Wizards Retreat Logo Redesign",
+      "subtitle": "Yoobee College Formative",
+      "role": "Graphic Designer",
+      "image": "/img/wizardsretreat-dark.webp",
+      "imageOne": "/img/WizardsRetreat1.webp",
+      "imageTwo": "/img/wizardsretreat2.webp",
+      "imageThree": "https://lh3.googleusercontent.com/p/AF1QipN_PEiTzdnMXo2OE4hOmHBBL8OYoORyoIvzH4tx=s1360-w1360-h1020",
+      "description": "In a formative assignment at Yoobee College, I took on the challenge of redesigning a logo using Adobe Illustrator. The existing logo had a playful and cartoonish vibe, prompting me to venture into a more professional aesthetic while retaining a friendly theme. The goal was to strike a balance between professionalism and approachability. The third image showcases the original store logo for reference. This assignment not only honed my skills in logo design but also provided an opportunity to explore a different design perspective.",
+      "descriptionTwo": "This project serves as a Formative assignment for Yoobee College, undertaken for the purpose of learning and honing Graphic design skills. It is important to note that this endeavor is part of an academic assessment and was not commissioned by the actual client, Game Magazine. The primary objective is skill development and showcasing proficiency in the field."
+    }
+  ]
+}
