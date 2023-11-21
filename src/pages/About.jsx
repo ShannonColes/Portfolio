@@ -8,7 +8,7 @@ const About = () => {
 
   useEffect(() => {
     axios
-      .get("about.json")
+      .get("/about.json")
       .then((response) => {
         setAbout(response.data.about);
       })

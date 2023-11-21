@@ -16,7 +16,7 @@ const Home = () => {
     Aos.init();
 
     axios
-      .get("projects.json")
+      .get("/projects.json")
       .then((response) => {
         setProjects(response.data.projects);
       })

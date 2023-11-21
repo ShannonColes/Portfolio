@@ -12,7 +12,7 @@ const Project = () => {
 
   useEffect(() => {
     axios
-      .get("projects.json")
+      .get("/projects.json")
       .then((res) => {
         setProjects(res.data.projects);
         const index = projects.findIndex((p) => p.id === parseInt(id, 10));
