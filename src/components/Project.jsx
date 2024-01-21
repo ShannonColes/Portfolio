@@ -144,7 +144,7 @@ const Project = () => {
           href="https://summative4.vercel.app/#/"
           target="_blank"
         >
-          <h3>{project.link}</h3>
+          {/* <h3>{project.link}</h3> */}
         </a>
 
         <h4
